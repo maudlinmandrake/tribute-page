@@ -74,8 +74,13 @@ header {
   flex: 50%;
 }
 
+.last-section {
+  background-color: #fff;
+}
+
 #img-div {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-content: center;
   flex: 50%;
@@ -94,6 +99,7 @@ header {
 }
 
 .section-two img {
+  transform: rotate(5deg);
   width: 70%;
 }
 
