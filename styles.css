@@ -89,6 +89,11 @@ header {
   text-align: center;
 }
 
+#image {
+  display: block;
+  max-width: 600px;
+}
+
 /* IMAGE STYLING */
 .tribute-img img {
   display: flex;
