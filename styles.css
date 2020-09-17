@@ -131,3 +131,11 @@ header {
     padding-top: 50px;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  #tribute-info,
+  .section-two,
+  .closing-section {
+    padding: 50px;
+  }
+}
