@@ -1,11 +1,12 @@
 /* import google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,400;0,700;1,400;1,700&family=Beth+Ellen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Raleway:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap');
 
 /* RESET */
 body {
   padding: 0;
   margin: 0;
-  font-family: "Bellota";
+  font-family: "Raleway";
+  font-weight: 300;
 }
 
 /* HEADINGS */
@@ -15,17 +16,21 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Bellota";
+  font-family: "Playfair Display";
 }
 
 #title {
-  font-family: "Beth Ellen"; 
+  font-weight: 900; 
   font-size: 4rem;
+  font-style: italic;
 }
 
 .subtitle {
-  font-size: 2rem;
-  margin-top: -40px;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 1rem;
+  margin-top: -30px;
+  text-transform: uppercase;
 }
 
 /* SECTIONS */
@@ -44,24 +49,47 @@ header {
 }
 
 #tribute-info { 
-  padding: 100px;
+  padding: 150px;
   display: flex;
 }
 
-.letter {
-  flex: 50%;
-}
-
-/* IMAGE STYLING */
 .polaroid {
   display: flex;
   align-items: center;
   justify-content: center;
   flex: 50%;
 }
+.letter {
+  flex: 50%;
+}
+
+.section-two {
+  display: flex;
+  background-color: #000;
+  color: #fff;
+  padding: 150px;
+}
+
+.section-two-text {
+  flex: 50%;
+}
+
+.section-two-img {
+  display: flex;
+  justify-content: center;
+  flex: 50%;
+}
+
+
+/* IMAGE STYLING */
 .polaroid img {
   display: flex;
   transform: rotate(-5deg);
+  width: 70%;
+}
+
+.section-two-img img {
+  transform: rotate(5deg);
   width: 70%;
 }
 
