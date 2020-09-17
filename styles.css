@@ -1,7 +1,7 @@
 /* import google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Raleway:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap');
 
-/* RESET */
+/* SITE-WIDE */
 body {
   padding: 0;
   margin: 0;
@@ -53,13 +53,13 @@ header {
   display: flex;
 }
 
-.polaroid {
+.tribute-img {
   display: flex;
   align-items: center;
   justify-content: center;
   flex: 50%;
 }
-.letter {
+.tribute-text {
   flex: 50%;
 }
 
@@ -74,7 +74,7 @@ header {
   flex: 50%;
 }
 
-.section-two-img {
+#img-div {
   display: flex;
   justify-content: center;
   flex: 50%;
@@ -82,15 +82,32 @@ header {
 
 
 /* IMAGE STYLING */
-.polaroid img {
+.tribute-img img {
   display: flex;
   transform: rotate(-5deg);
   width: 70%;
 }
 
-.section-two-img img {
-  transform: rotate(5deg);
+.section-two img {
   width: 70%;
 }
 
+@media only screen and (max-width: 992px) {
+  #tribute-info {
+    display: flex;
+    flex-direction: column;
+  }
 
+  #tribute-info img {
+    padding-bottom: 50px;
+  }
+
+  .section-two {
+    display:flex;
+    flex-direction: column;
+  }
+
+  .section-two img {
+    padding-top: 50px;
+  }
+}

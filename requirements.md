@@ -15,9 +15,13 @@ I should see an element with a corresponding id="title", which contains a string
 
 ## User Story #3
 
+**STATUS: DONE**
+
 I should see a div element with a corresponding id="img-div".
 
 ## User Story #4
+
+**STATUS: DONE**
 
 Within the img-div element, I should see an img element with a corresponding id="image".
 
