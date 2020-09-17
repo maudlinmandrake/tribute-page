@@ -55,11 +55,11 @@ header {
 .polaroid {
   flex: 50%;
   justify-content: center;
+  align-items: center;
 }
 .polaroid img {
-  padding: 30px;
-  transform: rotate(-5deg);
-  width: 80%;
+  /* transform: rotate(-5deg); */
+  width: 70%;
 }
 
 
