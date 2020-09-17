@@ -1,7 +1,7 @@
 /* import google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Raleway:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap');
 
-/* SITE-WIDE */
+/* some basics! ================================================================================================ */
 body {
   padding: 0;
   margin: 0;
@@ -12,7 +12,9 @@ body {
 img {
   width: 70%;
 }
-/* HEADINGS */
+
+
+/* headings, titles, oh my! =================================================================================== */
 h1,
 h2,
 h3,
@@ -40,7 +42,9 @@ figcaption {
   text-transform: uppercase;
 }
 
-/* SECTIONS */
+/* sections ==================================================================================================== */
+
+/* header */
 header {
   align-items: center;
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("img/grace-hopper-one.jpg");
@@ -60,6 +64,7 @@ header {
   display: flex;
 }
 
+/* first section */
 .tribute-img {
   display: flex;
   align-items: center;
@@ -70,6 +75,7 @@ header {
   flex: 50%;
 }
 
+/* section section */
 .section-two {
   display: flex;
   background-color: #000;
@@ -81,6 +87,7 @@ header {
   flex: 50%;
 }
 
+/* last section*/
 .closing-section {
   padding: 150px;
 }
@@ -93,7 +100,7 @@ header {
   padding-top: 50px;
 }
 
-/* IMAGE STYLING */
+/* image-specific */
 .tribute-img img {
   display: flex;
   transform: rotate(-5deg);
@@ -103,6 +110,7 @@ header {
   transform: rotate(5deg);
 }
 
+/* responsiveness */
 @media only screen and (max-width: 992px) {
 
   img {
