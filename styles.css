@@ -53,12 +53,14 @@ header {
 
 /* IMAGE STYLING */
 .polaroid {
-  flex: 50%;
-  justify-content: center;
+  display: flex;
   align-items: center;
+  justify-content: center;
+  flex: 50%;
 }
 .polaroid img {
-  /* transform: rotate(-5deg); */
+  display: flex;
+  transform: rotate(-5deg);
   width: 70%;
 }
 
