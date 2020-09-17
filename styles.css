@@ -43,7 +43,8 @@ header {
   color: #fff;
 }
 
-#tribute-info {
+#tribute-info { 
+  padding: 100px;
   display: flex;
 }
 
