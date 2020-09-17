@@ -15,34 +15,38 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Beth Ellen";
+  font-family: "Bellota";
 }
 
 #title {
-  color: #000;
-  font-size: 3rem;
+  font-family: "Beth Ellen"; 
+  font-size: 4rem;
+}
+
+.subtitle {
+  font-size: 2rem;
+  margin-top: -40px;
 }
 
 /* SECTIONS */
 header {
   align-items: center;
-  background: url("img/gradient.jpg");
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("img/grace-hopper-one.jpg");
   background-size: cover;
   display: flex;
+  flex-direction: column;
   top: 0;
   height: 600px;
   justify-content: center;
   padding: 0;
   margin: 0;
+  color: #fff;
 }
 
 #tribute-info {
-  display: flex;
+  display: grid;
   padding: 50px;
-}
-
-.letter {
-  flex-grow: 2 ;
+  flex-direction: row;
 }
 
 /* IMAGE STYLING */
@@ -51,9 +55,9 @@ header {
   justify-content: center;
 }
 .polaroid img {
-  padding-top: 30px;
-  transform: rotate(-12deg);
-  width: 65%;
+  padding: 30px;
+  transform: rotate(-5deg);
+  width: 100%;
 }
 
 
