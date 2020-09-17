@@ -1,0 +1,49 @@
+/* import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,400;0,700;1,400;1,700&family=Beth+Ellen&display=swap');
+
+/* RESET */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Bellota";
+}
+
+/* HEADINGS */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Beth Ellen";
+}
+
+#title {
+  color: white;
+  font-size: 3rem;
+}
+
+/* SECTIONS */
+header {
+  align-items: center;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("img/tropical-back.jpg");
+  background-size: cover;
+  display: flex;
+  top: 0;
+  height: 800px;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+#tribute-info {
+  display: flex;
+  padding: 50px;
+}
+
+/* IMAGE STYLING */
+.illustration img {
+  height: 80%;
+}
+
+

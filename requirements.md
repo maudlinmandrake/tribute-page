@@ -3,17 +3,25 @@
 
 ## User Story #1
 
+**STATUS: DONE**
+
 My tribute page should have an element with a corresponding id="main", which contains all other elements.
 
 ## User Story #2
+
+**STATUS: DONE**
 
 I should see an element with a corresponding id="title", which contains a string (i.e. text) that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug").
 
 ## User Story #3
 
+**STATUS: DONE**
+
 I should see a div element with a corresponding id="img-div".
 
 ## User Story #4
+
+**STATUS: DONE**
 
 Within the img-div element, I should see an img element with a corresponding id="image".
 
@@ -22,6 +30,8 @@ Within the img-div element, I should see an img element with a corresponding id=
 Within the img-div element, I should see an element with a corresponding id="img-caption" that contains textual content describing the image shown in img-div.
 
 ## User Story #6
+
+**STATUS: DONE**
 
 I should see an element with a corresponding id="tribute-info", which contains textual content describing the subject of the tribute page.
 
