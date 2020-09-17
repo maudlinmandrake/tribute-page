@@ -47,4 +47,6 @@ The img element should responsively resize, relative to the width of its parent 
 
 ## User Story #9
 
+**STATUS: DONE**
+
 The img element should be centered within its parent element.

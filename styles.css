@@ -9,6 +9,9 @@ body {
   font-weight: 300;
 }
 
+img {
+  width: 70%;
+}
 /* HEADINGS */
 h1,
 h2,
@@ -17,6 +20,10 @@ h4,
 h5,
 h6 {
   font-family: "Playfair Display";
+}
+
+figcaption {
+  font-size: .8rem;
 }
 
 #title {
@@ -74,36 +81,29 @@ header {
   flex: 50%;
 }
 
-.last-section {
-  background-color: #fff;
+.closing-section {
+  padding: 150px;
 }
 
 #img-div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  flex: 50%;
+  text-align: center;
 }
-
-#img-caption {
-  font-size: .8rem;
-}
-
 
 /* IMAGE STYLING */
 .tribute-img img {
   display: flex;
   transform: rotate(-5deg);
-  width: 70%;
 }
 
 .section-two img {
   transform: rotate(5deg);
-  width: 70%;
 }
 
 @media only screen and (max-width: 992px) {
+
+  img {
+    width: 100%;
+  }
   #tribute-info {
     display: flex;
     flex-direction: column;
@@ -119,6 +119,10 @@ header {
   }
 
   .section-two img {
+    padding-top: 50px;
+  }
+
+  .closing-section img {
     padding-top: 50px;
   }
 }
