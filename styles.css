@@ -44,20 +44,22 @@ header {
 }
 
 #tribute-info {
-  display: grid;
-  padding: 50px;
-  flex-direction: row;
+  display: flex;
+}
+
+.letter {
+  flex: 50%;
 }
 
 /* IMAGE STYLING */
 .polaroid {
-  display: flex;
+  flex: 50%;
   justify-content: center;
 }
 .polaroid img {
   padding: 30px;
   transform: rotate(-5deg);
-  width: 100%;
+  width: 80%;
 }
 
 
